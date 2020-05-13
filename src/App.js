@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import Navbar from './components/Navbar/Navbar.jsx';
+
 
 const App = () => {
   return (
     <div className="container-fluid">
-      <h1>Hello from Moneyfly</h1>
-
+      <Navbar />
     </div>
   );
 };

@@ -1,16 +1,12 @@
 
 @import "/_colors.scss";
 body {
+    padding: 0;
     color: $body-text;
     background-color: #fafafa;
 }
-h1,h2,h3,h4,h5,h6{
-    color: $heading-text;
-}
-h1{
-    font-size: 34px;
+
+.container-fluid{
+    padding: 0 !important;
 }
 
-a{
-    color: $link-color;
-}

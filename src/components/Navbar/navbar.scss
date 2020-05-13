@@ -1,0 +1,32 @@
+.navbar{
+  
+background-color: #293f8a !important;
+.nav-link{
+  color:lightgray !important;
+  font-weight: 600;
+}
+.navbar-nav{
+  margin-right: 2rem;
+}
+.btn{
+  width:70px ;
+}
+}
+
+.navbar-brand{
+  color:lightgray !important;
+  font-size: 1.7rem;
+  font-weight: 700;
+  i{
+    margin-left: -7px;
+   
+    font-size:1.5rem;
+    color:rgb(118, 241, 204);
+  }
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
